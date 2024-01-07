@@ -1,0 +1,41 @@
+* {
+	box-sizing: border-box;
+}
+body {
+	background-color: #FA8072;
+	font-family: 'Muli', sans-serif;
+	height: 100vh;
+	overflow: hidden;
+}
+h1 {
+	font-size: 8vw;
+	font-weight: bold;
+	margin: 0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+	z-index: 1;
+	width: 100%;
+}
+.overlay {
+	z-index: 2;
+}
+.line {
+	background-color: #fff;
+	border-radius: 50px;
+	position: absolute;
+	top: 50%;
+	left: -1vw;
+	transform: translateY(-50%);
+	height: 2vw;
+	width: 0;
+	animation: grow 3s linear forwards;
+	z-index: 2;
+}
+@keyframes grow {
+	to {
+		width: 85vw;
+	}
+}

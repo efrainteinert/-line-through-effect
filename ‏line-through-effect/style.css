@@ -18,7 +18,17 @@ h1 {
 	text-align: center;
 	z-index: 1;
 	width: 100%;
-}
+}h1 {
+	font-size: 5vw;
+	font-weight: bold;
+	margin: 0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+	z-index: 1;
+	width: 100%;
 .overlay {
 	z-index: 2;
 }
@@ -170,4 +180,5 @@ mmmmmmmmmmmmm
 ////////////
 ////////
 ////////////////
+
 
